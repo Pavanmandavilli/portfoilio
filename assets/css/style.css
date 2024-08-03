@@ -1992,3 +1992,27 @@ textarea.form-input::-webkit-resizer { display: none; }
 .collage-name{
   color: aliceblue;
 }
+
+@media only screen and (max-width: 600px) {
+  
+.card {
+  width: 80px;
+  height: 80px;
+}
+
+.back-content img{
+  height: 98%;
+  width: 98%;
+}
+
+.back::before {
+  position: absolute;
+  content: ' ';
+  display: block;
+  width: 60px;
+  height: 160%;
+  background: linear-gradient(90deg, transparent, #66f2ff, #66f2ff, #66f2ff, #66f2ff, transparent);
+  animation: rotation_481 5000ms infinite linear;
+}
+
+}
